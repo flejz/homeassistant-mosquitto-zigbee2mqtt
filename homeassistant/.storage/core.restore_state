@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "scene.broom_spot_lights",
+        "state": "unknown",
+        "attributes": {
+          "entity_id": [
+            "light.0x14b457fffe72077e",
+            "select.0x14b457fffe72077e_power_on_behavior",
+            "light.0x14b457fffe6e6711",
+            "select.0x14b457fffe6e6711_power_on_behavior",
+            "light.0x14b457fffe71fa9d",
+            "select.0x14b457fffe71fa9d_power_on_behavior"
+          ],
+          "id": "1645537660109",
+          "friendly_name": "broom-spot-lights"
+        },
+        "last_changed": "2022-07-06T20:28:52.937805+00:00",
+        "last_updated": "2022-07-06T20:28:52.937805+00:00",
+        "context": {
+          "id": "01G7AK71T9GFWZVCH9ZAEYZDGN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bedroom_lights_toggle",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645522553830",
+          "friendly_name": "Bedroom Lights Toggle"
+        },
+        "last_changed": "2022-07-06T20:28:52.952042+00:00",
+        "last_updated": "2022-07-06T20:28:52.952042+00:00",
+        "context": {
+          "id": "01G7AK71TRY4NBZJB239V3F2V8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.living_room_lights_toggle",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645532422727",
+          "friendly_name": "Living Room Lights Toggle"
+        },
+        "last_changed": "2022-07-06T20:28:52.952114+00:00",
+        "last_updated": "2022-07-06T20:28:52.952114+00:00",
+        "context": {
+          "id": "01G7AK71TRZ6W38HJKE1HFTR00",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.kitchen_lights_on",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645536231921",
+          "friendly_name": "Kitchen Lights On"
+        },
+        "last_changed": "2022-07-06T20:28:52.952178+00:00",
+        "last_updated": "2022-07-06T20:28:52.952178+00:00",
+        "context": {
+          "id": "01G7AK71TRRWVMMGHKC2TT9Z71",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.kitchen_lights_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645536296446",
+          "friendly_name": "Kitchen Lights Off"
+        },
+        "last_changed": "2022-07-06T20:28:52.952237+00:00",
+        "last_updated": "2022-07-06T20:28:52.952237+00:00",
+        "context": {
+          "id": "01G7AK71TRW9H04XC9K79RXM2V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645538157326",
+          "friendly_name": "New Automation"
+        },
+        "last_changed": "2022-07-06T20:28:52.952296+00:00",
+        "last_updated": "2022-07-06T20:28:52.952296+00:00",
+        "context": {
+          "id": "01G7AK71TRYHX47EZHM80Z4TFZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.restart_adguard",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1645700578436",
+          "friendly_name": "Restart AdGuard"
+        },
+        "last_changed": "2022-07-06T20:28:52.952352+00:00",
+        "last_updated": "2022-07-06T20:28:52.952352+00:00",
+        "context": {
+          "id": "01G7AK71TRQYDH5WPRHB6CF0KM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bar_snooze",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1657047419637",
+          "friendly_name": "Bar Snooze"
+        },
+        "last_changed": "2022-07-06T20:28:52.952410+00:00",
+        "last_updated": "2022-07-06T20:28:52.952410+00:00",
+        "context": {
+          "id": "01G7AK71TRBY7R11MD84XWWCM1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bar_wakeup",
+        "state": "on",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1657047733356",
+          "friendly_name": "Bar Wakeup"
+        },
+        "last_changed": "2022-07-06T20:28:52.952466+00:00",
+        "last_updated": "2022-07-06T20:28:52.952466+00:00",
+        "context": {
+          "id": "01G7AK71TRC54Q2ADRDFDX7KRG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-07-06T20:28:56.011548+00:00"
+    }
+  ]
+}

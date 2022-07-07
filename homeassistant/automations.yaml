@@ -1,0 +1,139 @@
+- id: '1645522553830'
+  alias: Bedroom Lights Toggle
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: b4ad46ac42a749d76df570586afec237
+    type: action
+    subtype: toggle
+    discovery_id: 0x000d6ffffe513e94 action_toggle
+  condition: []
+  action:
+  - type: toggle
+    device_id: 88760b37c08a5506b36c0d5046a1a1e2
+    entity_id: light.broom_spot_light_1
+    domain: light
+  - type: toggle
+    device_id: 6d950a8de8c018ab64d7178b5fe84387
+    entity_id: light.broom_spot_light_2
+    domain: light
+  - type: toggle
+    device_id: ab10f69e8e8f03e3b8addf9a93884ffa
+    entity_id: light.broom_spot_light_3
+    domain: light
+  mode: single
+- id: '1645532422727'
+  alias: Living Room Lights Toggle
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 5987a5d88db42c04f8d0fa2286291048
+    type: action
+    subtype: toggle
+    discovery_id: 0xec1bbdfffe3bc954 action_toggle
+  condition: []
+  action:
+  - type: toggle
+    device_id: 0921d80d84cfa8af37c040e2388d5efa
+    entity_id: light.lroom_spot_light_1
+    domain: light
+  - type: toggle
+    device_id: c7db9f30705df815044a104c08635f90
+    entity_id: light.lroom_spot_light_2
+    domain: light
+  - type: toggle
+    device_id: e64c6ceec985703c4a5af9e702996c1c
+    entity_id: light.0xec1bbdfffea8c86f
+    domain: light
+  mode: single
+- id: '1645536231921'
+  alias: Kitchen Lights On
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 7623e8e0c87b41f4b320a9a37ea58c29
+    type: click
+    subtype: 'on'
+    discovery_id: 0x04cd15fffe319b86 click_on
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 9b7481a4564130abfb9eb831560cc8d0
+    entity_id: switch.0xcc86ecfffe20f952
+    domain: switch
+  mode: single
+- id: '1645536296446'
+  alias: Kitchen Lights Off
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 7623e8e0c87b41f4b320a9a37ea58c29
+    type: click
+    subtype: 'off'
+    discovery_id: 0x04cd15fffe319b86 click_off
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 9b7481a4564130abfb9eb831560cc8d0
+    entity_id: switch.0xcc86ecfffe20f952
+    domain: switch
+  mode: single
+- id: '1645538157326'
+  alias: New Automation
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: b4ad46ac42a749d76df570586afec237
+    type: action
+    subtype: brightness_up_hold
+    discovery_id: 0x000d6ffffe513e94 action_brightness_up_hold
+  condition: []
+  action:
+  - device_id: ab10f69e8e8f03e3b8addf9a93884ffa
+    domain: light
+    entity_id: light.0x14b457fffe71fa9d
+    type: brightness_decrease
+  mode: single
+- id: '1645700578436'
+  alias: Restart AdGuard
+  description: ''
+  trigger:
+  - platform: time
+    at: 05:00:00
+  condition: []
+  action:
+  - service: hassio.addon_restart
+    data:
+      addon: a0d7b954_adguard
+  mode: single
+- id: '1657047419637'
+  alias: Bar Snooze
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:00:00
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 8aaef3f4d1dac2a1cea108140e14c934
+    entity_id: switch.bar_outlet
+    domain: switch
+  mode: single
+- id: '1657047733356'
+  alias: Bar Wakeup
+  description: ''
+  trigger:
+  - platform: time
+    at: 08:00:00
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 8aaef3f4d1dac2a1cea108140e14c934
+    entity_id: switch.bar_outlet
+    domain: switch
+  mode: single

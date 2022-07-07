@@ -1,0 +1,109 @@
+{
+    "0x000d6ffffe513e94": {
+        "battery": 74,
+        "update": {
+            "state": "available"
+        },
+        "update_available": true
+    },
+    "0xec1bbdfffe3bc954": {
+        "battery": 74,
+        "update": {
+            "state": "available"
+        },
+        "update_available": true
+    },
+    "0x04cd15fffe319b86": {
+        "update": {
+            "state": "available"
+        },
+        "update_available": true,
+        "battery": 5
+    },
+    "0xcc86ecfffe20f952": {
+        "state": "OFF",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false
+    },
+    "0x04cd15fffe6e239e": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "state": "ON",
+        "color_temp": 250,
+        "brightness": 254
+    },
+    "0xec1bbdfffea8c86f": {
+        "color_mode": "color_temp",
+        "state": "ON",
+        "brightness": 254,
+        "color_temp": 324,
+        "update": {
+            "state": "available"
+        },
+        "update_available": true,
+        "linkquality": 123
+    },
+    "0x14b457fffe72077e": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "state": "ON",
+        "brightness": 127,
+        "color_temp": 404,
+        "linkquality": 108
+    },
+    "0x14b457fffe6e6711": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "state": "ON",
+        "brightness": 127,
+        "color_temp": 404,
+        "linkquality": 96
+    },
+    "0x14b457fffe71fa9d": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "available"
+        },
+        "update_available": true,
+        "state": "ON",
+        "brightness": 127,
+        "color_temp": 404,
+        "linkquality": 42
+    },
+    "0xccccccfffed4607f": {
+        "color_mode": "color_temp",
+        "state": "ON",
+        "brightness": 254,
+        "color_temp": 324,
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "linkquality": 108
+    },
+    "0xec1bbdfffeae2d6c": {
+        "color_mode": "color_temp",
+        "update": {
+            "state": "idle"
+        },
+        "update_available": false,
+        "state": "ON",
+        "brightness": 254,
+        "color_temp": 324,
+        "linkquality": 90
+    },
+    "0x00124b0024c2a9a4": {
+        "state": "ON"
+    }
+}

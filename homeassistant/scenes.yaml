@@ -1,0 +1,115 @@
+- id: '1645537660109'
+  name: broom-spot-lights
+  entities:
+    light.0x14b457fffe72077e:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 84
+      power_on_behavior:
+      update:
+        progress: 94.61
+        remaining: 66
+        state: updating
+      update_available: false
+      friendly_name: broom-spot-light-1
+      supported_features: 47
+      state: 'off'
+    select.0x14b457fffe72077e_power_on_behavior:
+      options:
+      - 'off'
+      - previous
+      - 'on'
+      brightness: 254
+      color_mode: color_temp
+      color_temp: 454
+      linkquality: 84
+      power_on_behavior:
+      update:
+        progress: 94.61
+        remaining: 66
+        state: updating
+      update_available: false
+      icon: mdi:power-settings
+      friendly_name: broom-spot-light-1 power on behavior
+      state: unknown
+    light.0x14b457fffe6e6711:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 90
+      power_on_behavior:
+      update:
+        state: available
+      update_available: true
+      friendly_name: broom-spot-light-2
+      supported_features: 47
+      state: 'off'
+    select.0x14b457fffe6e6711_power_on_behavior:
+      options:
+      - 'off'
+      - previous
+      - 'on'
+      brightness: 254
+      color_mode: color_temp
+      color_temp: 454
+      linkquality: 90
+      power_on_behavior:
+      update:
+        state: available
+      update_available: true
+      icon: mdi:power-settings
+      friendly_name: broom-spot-light-2 power on behavior
+      state: unknown
+    light.0x14b457fffe71fa9d:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 63
+      power_on_behavior:
+      update:
+        state: available
+      update_available: true
+      friendly_name: broom-spot-light-3
+      supported_features: 47
+      state: 'off'
+    select.0x14b457fffe71fa9d_power_on_behavior:
+      options:
+      - 'off'
+      - previous
+      - 'on'
+      brightness: 254
+      color_mode: color_temp
+      color_temp: 454
+      linkquality: 63
+      power_on_behavior:
+      update:
+        state: available
+      update_available: true
+      icon: mdi:power-settings
+      friendly_name: broom-spot-light-3 power on behavior
+      state: unknown
