@@ -4,12 +4,11 @@ services:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
-      - ./config/ha:/config
+      - ./homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     privileged: true
-    networks:
-      - localnet
+    network_mode: host
   mosquitto:
     container_name: mosquitto
     image: eclipse-mosquitto:latest
@@ -21,8 +20,7 @@ services:
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
     restart: unless-stopped
-    networks:
-      - localnet
+    network_mode: host
   zigbee2mqtt:
     container_name: zigbee2mqtt
     depends_on: 
@@ -36,9 +34,5 @@ services:
     devices:
       - /dev/ttyUSB0:/dev/ttyACM0
     restart: unless-stopped
-    networks:
-      - localnet
+    network_mode: host
     privileged: true
-
-networks:
-  localnet:
